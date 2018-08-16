@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+
+        /* JSX Options */ 
+        "jsx": "react", 
+
+        /* Basic Options */   
+        "module": "commonjs",
+        "target": "es2015",
+        "outDir": "./dist",
+        "removeComments": true,
+
+        /* Type-Checking Options */
+        "strict": true,
+        "noFallthroughCasesInSwitch" : true,
+        "noImplicitReturns" : true,
+        "noUnusedParameters": true,
+
+        /* Source Map Options */
+        "sourceMap": true,
+
+        /* webpack */
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+        
+    },
+     "files": [
+        "src/temperature.tsx"
+    ]
+}
